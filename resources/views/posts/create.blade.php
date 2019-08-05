@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
- <div class="containers">
+ <div class="container">
 <div class="card">
 
 <div class="card-header">{{isset($post) ? 'edit a post':'create a post'}}</div>
